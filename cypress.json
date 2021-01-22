@@ -1,0 +1,14 @@
+{
+    "chromeWebSecurity": false,
+    "reporter": "cypress-mochawesome-reporter",
+    "reporterOptions": {
+        "reportDir": "cypress/reports",
+        "reportFilename": "report",
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "charts": true
+    },
+    "video": true,
+    "url": "https://www.pecodesoftware.com/qa-portal/greet.php"
+}
